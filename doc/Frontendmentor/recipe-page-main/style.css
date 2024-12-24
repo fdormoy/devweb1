@@ -1,0 +1,97 @@
+html {
+    background-color: bisque;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.content {
+    
+    background-color: white;
+}
+table {
+    display: none;
+}
+li::marker {
+    color:brown;    
+}
+img {
+    width: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.rose::marker {
+    color: deeppink;
+}
+
+h1 {
+    font-family: youngserif;
+    font-weight: 200;
+    margin-left: 20px;
+}
+
+h2, h3 {
+    font-family: youngserif;
+    color: brown;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+p, ul, ol, td {
+    font-family: light;
+    font-weight: 100;
+    margin-left: 20px;
+}
+
+.cal {
+    color: brown;
+    
+}
+
+.b {
+    margin-left: 130px;
+}
+
+.nutrition2 ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.preparation {
+    margin-left: 50px;
+    margin-top: 50px;
+    color: deeppink;
+}
+
+.ingredients {
+    margin-top: 50px;
+}
+
+.prepa, li {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cal {
+    margin-left: 130px;
+}
+
+@font-face {
+    font-family: 'youngserif';
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: 'light';
+    src: url(assets/fonts/outfit/static/Outfit-Light.ttf);
+}

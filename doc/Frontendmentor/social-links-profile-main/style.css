@@ -1,0 +1,46 @@
+.container {
+    margin: auto;
+    background-color: hsl(0, 0%, 8%);
+    width: 450px;
+}
+.box {
+    display:flexbox;
+    width: 400px;
+    height: 40px;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 6px;
+    align-items: center;
+    font-family: interbold;    
+}
+img {
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+h4 {
+    color: hsl(75, 94%, 57%);
+    font-family: interregular;
+    
+}
+h1 {
+    color: white;
+    font-family: interbold;
+}
+p {
+    font-family: interregular;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'interbold';
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: 'interregular';
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
