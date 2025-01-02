@@ -1,0 +1,47 @@
+:root {
+  /* --main-color: #9eff00; */
+  --main-color: rgba(80, 35, 255, 1);
+  --main-hover-color: rgb(100, 65, 255);
+  --secondary-color: #1b1b1b;
+  --bg-color: #191919;
+  --line-color: #212121;
+}
+
+.my-box-shadow {
+  box-shadow: 2px 2px 4px rgba(15, 15, 15, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* FONT 
+
+@font-face {
+  font-family: Barlow-Regular;
+  src: url(../font/Barlow/Barlow-Regular.ttf);
+}
+@font-face {
+  font-family: Barlow-Medium;
+  src: url(../font/Barlow/Barlow-Medium.ttf);
+}
+@font-face {
+  font-family: Barlow-SemiBold;
+  src: url(../font/Barlow/Barlow-SemiBold.ttf);
+}
+@font-face {
+  font-family: Barlow-Bold;
+  src: url(../font/Barlow/Barlow-Bold.ttf);
+}
+@font-face {
+  font-family: Barlow-ExtraBold;
+  src: url(../font/Barlow/Barlow-ExtraBold.ttf);
+}
+*/
