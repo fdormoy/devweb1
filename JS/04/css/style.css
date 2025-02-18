@@ -1,0 +1,10 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: auto;    
+}
+article {
+    margin: 15px;
+}
