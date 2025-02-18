@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les formulaires</title>
+</head>
+<body> 
+    <!-- La méthode POST n'envoie pas les données saisies dans les url -->
+    <form action="traitement.php" method="post" enctype="multipart/form-data">
+        <label for="prenom">Votre prénom</label>
+    <!-- for="prenom" est en relation directe avec l'id de l'input -->
+        <input type="text" name="firstname" id="prenom" placeholder="Entrez votre prénom">
+        <input type="submit" value="OK">
+        <br>
+        <label for="test1">Etes-vous sociable ?</label>
+        <input type="radio" name="test1" value="0">oui
+        <input type="radio" name="test1" value="1">non
+        <input type="radio" name="test1" value="2">peut-être
+        <br>
+        <label for="test2">Aimez-vous les haricots verts ?</label>
+        <input type="radio" name="test2" value="0">oui
+        <input type="radio" name="test2" value="1">non
+        <input type="radio" name="test2" value="2">peut-être
+        <br>
+        <textarea name="test3" id="" rows="10" cols="50">Tapez votre message</textarea><br>
+        <input type="text" name="test3" value="John Doe"><br>
+        <select name="test4" id="select2">
+            <option value="">Choisissez parmi la liste</option>
+            <option value="1">Choix 1</option>
+            <option value="2">Choix 2</option>
+            <option value="3">Choix 3</option>
+        </select>
+    </form>
+</body>
+</html>
+<!-- dani krossing -->
+<!-- grafikart -->
+<!-- nouvelle techno -->

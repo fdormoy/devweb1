@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button {
+    background-color: brown;
+    color: antiquewhite;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    padding: 10px 20px;    
+}
+.error {
+    color: #f00000;
+    font-weight: normal;
+}

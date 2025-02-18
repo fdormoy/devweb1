@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #6581A6;
+    color: oldlace;
+}
+a {
+    text-decoration: none;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1D2C40;    
+    padding: 5px;
+    box-sizing: border-box;
+    height: 70px;    
+}
+header div {
+    display: flex;    
+    align-items: center;
+}
+nav {
+    position:absolute;
+    left: -95px;
+    background-color:#3D5473;
+    height: calc(100% - 60px);
+    
+}
+nav:hover {
+    left: 0px;
+    transition: all 0.5s ease-in-out;
+}
+nav>ul {
+    text-align: right;
+    line-height: 100px;    
+}
+nav>ul>li>a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+}
+.container {
+    padding: 10px;
+    margin-left: 150px;
+}
+.office {
+    width: 200px;
+    border-radius: 15px;
+}
+#logo {
+    margin-right: 10px;
+    
+}
+.btn {
+    display: inline-block;
+    padding: 10px;
+    background-color: #FF0000;    
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: light;
+    
+}
+.user {
+    display: flex;
+    gap: 100px;
+    padding: 0 50px;
+    border-radius: 15px;
+}
+i {
+    font-size: 25px;    
+    padding-right: 10px;
+}
+
+/* Color Theme Swatches in Hex */
+.vaporwave-1-1-hex { color: #F76DC8; }
+.vaporwave-1-2-hex { color: #AC66F2; }
+.vaporwave-1-3-hex { color: #05DBF2; }
+.vaporwave-1-4-hex { color: #07F285; }
+.vaporwave-1-5-hex { color: #F7F391; }
+
+/* Color Theme Swatches in RGBA */
+.vaporwave-1-1-rgba { color: rgba(246, 109, 200, 1); }
+.vaporwave-1-2-rgba { color: rgba(172, 102, 242, 1); }
+.vaporwave-1-3-rgba { color: rgba(4, 219, 242, 1); }
+.vaporwave-1-4-rgba { color: rgba(7, 242, 133, 1); }
+.vaporwave-1-5-rgba { color: rgba(246, 242, 144, 1); }
+
+/* Color Theme Swatches in HSLA */
+.vaporwave-1-1-hsla { color: hsla(320, 89, 69, 1); }
+.vaporwave-1-2-hsla { color: hsla(270, 84, 67, 1); }
+.vaporwave-1-3-hsla { color: hsla(185, 95, 48, 1); }
+.vaporwave-1-4-hsla { color: hsla(152, 94, 48, 1); }
+.vaporwave-1-5-hsla { color: hsla(57, 86, 76, 1); }
+
+/* Color Theme Swatches in Hex */
+.blue-towel-with-hat-and-summer-beach--1-hex { color: #AED3F2; }
+.blue-towel-with-hat-and-summer-beach--2-hex { color: #0477BF; }
+.blue-towel-with-hat-and-summer-beach--3-hex { color: #048ABF; }
+.blue-towel-with-hat-and-summer-beach--4-hex { color: #3C92A6; }
+.blue-towel-with-hat-and-summer-beach--5-hex { color: #BFB19F; }
+
+/* Color Theme Swatches in Hex */
+.Copy-of-Копия-Copy-of-Happy-Halloween-1-hex { color: #17011F; }
+.Copy-of-Копия-Copy-of-Happy-Halloween-2-hex { color: #5E1742; }
+.Copy-of-Копия-Copy-of-Happy-Halloween-3-hex { color: #962E40; }
+.Copy-of-Копия-Copy-of-Happy-Halloween-4-hex { color: #C9463D; }
+.Copy-of-Копия-Copy-of-Happy-Halloween-5-hex { color: #FF5E35; }
+
+/* Color Theme Swatches in Hex */
+.Packaging---Frut74-Tropical-Juice-1-hex { color: #0D0B0C; }
+.Packaging---Frut74-Tropical-Juice-2-hex { color: #BF930F; }
+.Packaging---Frut74-Tropical-Juice-3-hex { color: #A64B17; }
+.Packaging---Frut74-Tropical-Juice-4-hex { color: #8C2323; }
+.Packaging---Frut74-Tropical-Juice-5-hex { color: #F24949; }
+
+/* Color Theme Swatches in Hex */
+.color-schemes-for-small-houses-1-hex { color: #CDD5C6; }
+.color-schemes-for-small-houses-1-hex { color: #CDD5C6; }
+.color-schemes-for-small-houses-1-hex { color: #CDD5C6; }
+.color-schemes-for-small-houses-2-hex { color: #FBF2ED; }
+.color-schemes-for-small-houses-3-hex { color: #B7BCBF; }
+
+/* Color Theme Swatches in Hex */
+.Balenciaga-—-Track-1-hex { color: #09A603; }
+.Balenciaga-—-Track-2-hex { color: #055902; }
+.Balenciaga-—-Track-3-hex { color: #022601; }
+.Balenciaga-—-Track-4-hex { color: #79BF65; }
+.Balenciaga-—-Track-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in Hex */
+.Blackpink-in-Anime-Colors-1-hex { color: #8C1636; }
+.Blackpink-in-Anime-Colors-2-hex { color: #F299B9; }
+.Blackpink-in-Anime-Colors-3-hex { color: #8C3074; }
+.Blackpink-in-Anime-Colors-4-hex { color: #B03BBF; }
+.Blackpink-in-Anime-Colors-5-hex { color: #F27A5E; }
+
+/* Color Theme Swatches in Hex */
+.color-theme_blurred-gradient-abstract-background-with-vivid-primary-colors_58702-1202-1-hex { color: #6A0261; }
+.color-theme_blurred-gradient-abstract-background-with-vivid-primary-colors_58702-1202-2-hex { color: #0487D9; }
+.color-theme_blurred-gradient-abstract-background-with-vivid-primary-colors_58702-1202-3-hex { color: #04C4D9; }
+.color-theme_blurred-gradient-abstract-background-with-vivid-primary-colors_58702-1202-4-hex { color: #04D99D; }
+.color-theme_blurred-gradient-abstract-background-with-vivid-primary-colors_58702-1202-5-hex { color: #0DF205; }
+
+/* Color Theme Swatches in Hex */
+.Primary---Color-Blind-Safe-1-hex { color: #66DAFA; }
+.Primary---Color-Blind-Safe-2-hex { color: #5CC253; }
+.Primary---Color-Blind-Safe-3-hex { color: #FAF146; }
+.Primary---Color-Blind-Safe-4-hex { color: #FF8C40; }
+.Primary---Color-Blind-Safe-5-hex { color: #F5513D; }
+
+/* Color Theme Swatches in Hex */
+.The-Coast-in-Spring-VIII-1-hex { color: #1D2C40; }
+.The-Coast-in-Spring-VIII-2-hex { color: #3D5473; }
+.The-Coast-in-Spring-VIII-3-hex { color: #6581A6; }
+.The-Coast-in-Spring-VIII-4-hex { color: #8BADD9; }
+.The-Coast-in-Spring-VIII-5-hex { color: #BDD9F2; }
+
+/* Color Theme Swatches in Hex */
+.Office-Ocean-Funny-Illustration-Set-1-hex { color: #BF1B28; }
+.Office-Ocean-Funny-Illustration-Set-2-hex { color: #F23D4C; }
+.Office-Ocean-Funny-Illustration-Set-3-hex { color: #D97E85; }
+.Office-Ocean-Funny-Illustration-Set-4-hex { color: #65B6BF; }
+.Office-Ocean-Funny-Illustration-Set-5-hex { color: #56736D; }
+
+

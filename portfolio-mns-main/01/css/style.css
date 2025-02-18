@@ -1,0 +1,120 @@
+* {
+    font-family: poppins;
+ 
+}
+.container {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+.bckgrd {    
+    width: 1000px;
+    
+}   
+nav, ul li {
+    display: flex; /* Active Flexbox */
+    justify-content: space-between; /* Espace entre le logo et les liens */
+    align-items: center; /* Aligne verticalement */
+    padding: 10px 20px; /* Ajoute un peu d’espace autour */
+    background-color: #000000; /* (Optionnel) Couleur de fond */
+    color: white;
+}
+.img1 {
+    margin-left: 15px;
+}
+ul {
+    display: flex; /* Aligne les liens horizontalement */
+    list-style: none; /* Supprime les puces */
+    padding: 0;
+    margin: 0;      
+}
+li {
+    margin: 0; /* Supprime les marges par défaut */
+    color: white;
+}
+a {
+    text-decoration: none; /* Supprime le soulignement */
+    color: rgb(255, 255, 255); /* Couleur du texte */
+}
+a:hover {    
+    color: red
+}
+h1 {
+    color: #7c1e4f;
+    text-align: center;
+}
+.text {
+    flex: 1; /* Permet au texte de prendre toute la place disponible */
+    text-align: left; /* Aligne le texte à gauche */
+}
+
+h2 {
+    color: rgb(50, 50, 50);
+    padding: 20px;  
+    
+}
+.container {
+    display: flex;
+    align-items: center; /* Aligne les éléments verticalement au centre */
+    gap: 20px; /* Ajoute un espacement entre les éléments */
+    max-width: 1000px; /* Limite la largeur du container */
+    margin: 0 auto; /* Centre le container */
+    background-color: bisque;
+}
+.container.reverse {
+    display: flex;
+    align-items: center; /* Pour aligner verticalement */
+    gap: 20px; /* Espacement entre les éléments */
+}
+
+.container.reverse h2 {
+    order: -1; /* Met le h2 en premier */
+    text-align: left; /* Alignement du texte */
+}
+#qui {    
+    align-items: start;
+}
+.text {
+    flex: 1; /* Le texte prend l'espace restant */
+    text-align: left; /* Aligne le texte à gauche */
+}
+.emoji {
+    width: 20px;
+}
+p img {
+    width: 150px;
+    border-radius: 10pc1;
+}
+img {
+    width: 150px;
+    border-radius: 10px;
+}
+hr.style-hr {
+    border: 15;
+    height: 2px;
+    width: 100%;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0),
+        #0364cb,
+        rgba(0, 0, 0, 0)
+    );
+    transition: all 2s ease-in-out;
+}
+@font-face {
+    font-family: 'poppins';
+    src: url(../font/Poppins/Poppins-ExtraLight.ttf)
+}
+
+/*
+backdrop-filter: blur(2px);
+backdrop-filter: brightness(60%);
+backdrop-filter: contrast(40%);
+backdrop-filter: drop-shadow(4px 4px 10px blue);
+backdrop-filter: grayscale(30%);
+backdrop-filter: hue-rotate(120deg);
+backdrop-filter: invert(70%);
+backdrop-filter: opacity(20%);
+backdrop-filter: sepia(90%);
+backdrop-filter: saturate(80%);
+*/
