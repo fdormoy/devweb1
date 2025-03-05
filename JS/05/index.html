@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="./js/script.js" defer></script>
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>JS 18-02-2025 | Contrôles sur formulaire</title>
+    </head>
+    <body>
+        <div class="container">
+            <form action="" id="form">
+                <h1>Formulaire d'inscription</h1>
+                <div>
+                    <label for="name" >Votre nom</label><br />
+                    <input type="text" id="name" required/>
+                </div>
+                <div>
+                    <label for="email">Votre email</label><br />
+                    <input type="email" name="email" id="email" required />
+                </div>
+                <div>
+                    <label for="password">Votre mot de passe</label><br />
+                    <input type="password" id="password" required />
+                </div>
+                <div>
+                    <label for="password-confirm">Confirmer le mot de passe</label>
+                    <input type="password" id="password-confirm" required />
+                </div>
+                <div class="checkbox">
+                    <label for="checkbox">J'accepte les conditions</label>
+                    <input type="checkbox" />
+                </div>
+                <input type="submit" id="btn" value="Valider" />
+            </form>
+        </div>
+    </body>
+</html>

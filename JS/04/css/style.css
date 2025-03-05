@@ -1,10 +1,97 @@
-main {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 800px;
-    margin: auto;    
+button {
+    background-color: rgba(80, 23, 178, 0.3);
+    color: #FFFFFF;
+    border: black, 2px, solid;
+    border-radius: 4px;
+    letter-spacing: 1.5px;
+    text-align: justify;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    cursor: crosshair;
+    padding: 9px;
+    margin: 20px;
+}
+
+body {
+    background-color: #abcdef;
+}
+* {
+    font-family: 'Geneva', Tahoma, sans-serif;
+    padding: px;
+    
 }
 article {
+    border: 1px solid #525252;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(80, 23, 178, 0.1);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.panier {
+    display: flex;
+    width: auto;
+    height:fit-content;
+    box-sizing: border-box;
+    
+} 
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;     
+    margin: auto;
+    max-width: 50%; 
+    flex-direction: row;
+    box-sizing: border-box;
+    margin-top: 150px;
+}
+
+article {
     margin: 15px;
+    flex: 1 1 200px; /* Cela donne à chaque article un espace flexible */
+}
+
+#cart {
+    background: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #525252;
+    width: 300px;
+    position: absolute; /* Positionnement absolu pour le placer en haut à droite */
+    top: 10px; /* Décalage du haut */
+    right: 10px; /* Décalage de la droite */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(80, 80, 178, 0.3);
+    border-radius: 5px;
+}
+
+#cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+#cart li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+#cart button {
+    background: #b6b6b6;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 3px 5px;
+}
+
+#cart button:hover {
+    background: red;
+    color: white;
+}
+
+.price {
+    font-style: oblique;
+    font-size: 1.5em;
 }

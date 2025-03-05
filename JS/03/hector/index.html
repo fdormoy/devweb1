@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <button id="lamaBleu">Changer la couleur en bleu</button>
+        <button id="lamaVert">Changer la couleur en vert</button>
+        <button id="lamaOrange">Changer la couleur en orange</button>
+        <button id="lamaRose">Changer la couleur en rose</button>
+        <button id="lamaRouge">Changer la couleur en rouge</button>
+        <button id="base">Réinitialiser la couleur</button>
+        <button id="allReset">TOUT Réinitialiser</button>
+        <button id="mystere">???</button>
+        <input type="color" id="test">
+
+
+        <h1 id="lumiere" style="display: none;">Qui à éteint la lumière ?</h1>
+        <h1>Faisons un quiz de bouffe :P</h1>
+        <h2>1 : Vous préférez quoi entre..</h2>
+        <ul>
+            <li><input type="radio" value="Le chocolat">Le chocolat</li>
+            <li><input type="radio" value="Les frites">Les frites</li>
+            <li><input type="radio" value="Le poulet KFC">Le poulet KFC</li>
+        </ul>
+        <h2>2 : Coté fruit, vous préférez quoi entre..</h2>
+        <ul>
+            <li><input type="radio" value="La banane">La banane</li>
+            <li><input type="radio" value="Les pommes">Les pommes</li>
+            <li><input type="radio" value="La cerise">La cerise</li>
+        </ul>
+        <h2>3 : Tournons nous vers la viande, vous préférez quoi entre..</h2>
+        <ul>
+            <li><input type="radio" value="Le boeuf">Le boeuf</li>
+            <li><input type="radio" value="Le porc">Le porc</li>
+            <li><input type="radio" value="L'agneau">L'agneau</li>
+        </ul>
+        <input type="password" id="motDePasse" placeholder="enter your assword"/>
+        <span id="mdp"></span> 
+        <button id="showPassword">Afficher le mot de passe</button>
+        <script type="text/javascript">
+            document.getElementById("lamaBleu").addEventListener("click", function(){
+                document.querySelector("body").style.backgroundColor="blue";
+            });
+            document.getElementById("lamaVert").addEventListener("click", function(){
+                document.querySelector("body").style.backgroundColor="green";
+            });
+            document.getElementById("lamaOrange").addEventListener("click", function(){
+                document.querySelector("body").style.backgroundColor="orange";
+            });
+            document.getElementById("lamaRose").addEventListener("click", function(){
+                document.querySelector("body").style.backgroundColor="pink";
+            });
+            document.getElementById("lamaRouge").addEventListener("click", function(){
+                document.querySelector("body").style.backgroundColor="red";
+            });
+            document.getElementById("base").addEventListener("click", function(){
+                document.querySelector("body").style.backgroundColor="white";
+            });
+            document.getElementById("test").addEventListener("change", function(){
+                document.querySelector("body").style.backgroundColor=document.getElementById("test").value;
+            });
+            document.getElementById("mystere").addEventListener("click", function(){
+                document.querySelector("body").style.backgroundColor="black";
+                document.querySelector("*").style.color="white";
+                document.getElementById("lumiere").style.display="block";
+            });
+            document.getElementById("showPassword").addEventListener("click", function(){
+                document.getElementById("mdp").innerHTML=document.getElementById("motDePasse").value;
+            });
+            document.getElementById("allReset").addEventListener("click", function(){
+                window.location.reload();
+            });
+        </script>
+    </body>
+</html>
